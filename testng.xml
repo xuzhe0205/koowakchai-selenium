@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/zhe/Desktop/NEU/INFO6250/selenium-automation/src/test/java/SignupScenario/SignupTest1.java">
+        <classes>
+            <class name="SignupScenario.SignupTest1">
+                <methods>
+                    <include name="testSignup"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="/Users/zhe/Desktop/NEU/INFO6250/selenium-automation/src/test/java/LoginScenario/LoginTest1.java">
+        <classes>
+            <class name="LoginScenario.LoginTest1">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
